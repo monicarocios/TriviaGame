@@ -7,20 +7,51 @@
     </head>
 
     <body>
-        <div class= 'textBox'>
-            <div class= 'header'>
+        <div class= "firstScreen">
+            <div class= "header">
                 <h1>A Lil' History Trivia Game</h1>
             </div>
 
-            <div class= 'counter'>
+            <div class= "counter">
                 <p>Time Remaining: </p>
             </div>
 
-            <div class= 'questions'>
-                <p class='question1'>The Iran-Contra Affair was a secret U.S. arms deal with Iran (where the US had previously placed a trade embargo due to the Iran Hostage Crisis) that traded missiles and other arms to free other Americans held hostage by terrorists, but also used funds from the arms deal to support an anti-communist, cocaine-funded armed militant group in <strong>which country?</strong></p>
-                <p answer='answer1'></p>
+            <form>
+
+                <div class= "questions">
+                    <p class= "question">The Iran-Contra Affair was a secret U.S. arms deal with Iran (where the US had previously placed a trade embargo due to the Iran Hostage Crisis) that traded missiles and other arms to free other Americans held hostage by terrorists, but also used funds from the arms deal to support an anti-communist, cocaine-funded armed militant group in <strong>which country?</strong></p>
+                    <div class="answers">
+                    <input type="radio" name="answer1" value="Nicaragua"> Nicaragua<br>
+                    <input type="radio" name="answer1" value="Venezuela"> Venezuela<br>
+                    <input type="radio" name="answer1" value="Iraq"> Iraq<br>
+                    <input type="radio" name="answer1" value="Afghanistan"> Afghanistan<br>
+
+                </div>
+
+                    <p class = 'question'>Approximately how old is Earth?</p>
+                    <input type="radio" name="answer2" value="80.6 million years"> 80.6 million years<br>
+                    <input type="radio" name="answer2" value="2 billion years"> 2 billion years<br>
+                    <input type="radio" name="answer2" value="4.5 billion years">4.5 billion years<br>
+                    <input type="radio" name="answer2" value="20 min">20 min<br>
+                </div>
+
+
+                <div class="submitButton"><input type="submit" value="Submit"></div>
+            </form>
+
+        </div>
+
+        <div class="secondScreen">
+            <div class="header">
+                <h2>You've Completed History Trivia</h2>
             </div>
 
+            <div class="text">
+                <p><strong>All Done!</strong></p>
+                <p>Correct:</p>
+                <p>Incorrect:</p>
+                <p>Unanswered:</p>
+            </div>
         </div>
     </body>
 
